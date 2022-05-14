@@ -12,12 +12,15 @@ export default function flexintrocomponents() {
             />
           </div>
           <h5 className="mx-auto p-3 text-center">STUDIU ORGANIZAT</h5>
-          <p></p>
+          <p>
+            Îți poți crea propriul plan de studiu, bazat pe răspunsurile la
+            chestionar și preferințele alese.
+          </p>
         </div>
         <div className="offer-item-2 w-100 p-5 bg-success">
           <div className="container-of-display-icon mx-auto">
             <img
-              src="https://imj31us4am50.github.io/SpringStudy-media/calendar-icon.png"
+              src="https://imj31us4am50.github.io/SpringStudy-media/chat-icon.png"
               className="display-icon"
             />
           </div>
@@ -27,7 +30,7 @@ export default function flexintrocomponents() {
         <div className="offer-item-3 w-100 p-5 bg-dark">
           <div className="container-of-display-icon mx-auto">
             <img
-              src="https://imj31us4am50.github.io/SpringStudy-media/calendar-icon.png"
+              src="https://imj31us4am50.github.io/SpringStudy-media/options-icon.png"
               className="display-icon"
             />
           </div>
