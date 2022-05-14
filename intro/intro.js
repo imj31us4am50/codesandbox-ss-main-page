@@ -17,7 +17,7 @@ export default function intro() {
         <br />
         <div className="call-to-action mx-auto text-center">
           <p>Poți începe prin a-ți crea un cont: </p>
-          <button className="btn btn-default text-white">ÎNCEPE</button>
+          <button className="btn btn-default text-white">ÎNCEPE ACUM</button>
         </div>
       </div>
     </div>

@@ -6,6 +6,13 @@
   width: fit-content;
 }
 
+.offer-item-1,
+.offer-item-2,
+.offer-item-3 {
+  box-shadow: 1px 2px 3px black;
+  flex: 1;
+}
+
 h5 {
   width: fit-content;
 }

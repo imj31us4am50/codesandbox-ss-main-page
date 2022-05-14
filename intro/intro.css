@@ -13,7 +13,8 @@
 
 button,
 .btn {
-  border-radius: 20px;
+  font-size: 1.125rem;
+  border-radius: 25px;
   padding: 0.5em 1em;
   background: #ff9db0;
   transition: transform 0.5s;
