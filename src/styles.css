@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500&display=swap");
+
+* {
+  font-family: "Comfortaa", cursive;
+  /* overflow-y: auto; */
+}
+
+.App {
+  overflow-x: hidden;
+}
+
+.container-of-navbar-and-intro {
+  background: url("https://imj31us4am50.github.io/SpringStudy-media/cherryblossom4.png")
+    no-repeat fixed;
+  background-size: cover;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ff9db0;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+}
+
+@media screen and (min-width: 760px) {
+  .container-of-navbar-and-intro {
+    min-height: 100vh;
+  }
+}

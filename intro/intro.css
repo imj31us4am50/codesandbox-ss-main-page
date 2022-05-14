@@ -1,0 +1,35 @@
+.call-to-action {
+  width: fit-content;
+}
+/* 
+.intro-container {
+  height: 100vh;
+  background: url("https://imj31us4am50.github.io/SpringStudy-media/cherryblossom4.png")
+    no-repeat fixed;
+  background-size: cover;
+} */
+
+/* UNIVERSAL BUTTON STYLING */
+
+button,
+.btn {
+  border-radius: 20px;
+  padding: 0.5em 1em;
+  background: #ff9db0;
+  transition: transform 0.5s;
+}
+
+button:hover,
+.btn:hover {
+  transform: scale(110%);
+}
+
+.pink {
+  color: #ff9db0;
+}
+
+@media screen and (max-width: 760px) {
+  .intro-container {
+    flex-direction: column-reverse;
+  }
+}
