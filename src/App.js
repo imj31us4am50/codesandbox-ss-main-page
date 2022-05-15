@@ -6,6 +6,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "/navbar/navbar.js";
 import Intro from "/intro/intro.js";
 import Main from "/maincomponents/App1.js";
+import Notifications from "/notifications/notifications.js";
 
 export default function App() {
   return (
@@ -14,6 +15,8 @@ export default function App() {
         <NavBar />
         <Intro />
       </div>
+      {/* apare asta de notif. numai daca are cont si e conectat */}
+      <Notifications />
       <Main />
     </div>
   );
