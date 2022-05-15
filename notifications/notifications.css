@@ -8,6 +8,13 @@
   width: fit-content;
   padding: 0.5em;
   background: #ff9db0;
+  transform: translate(-70%);
+  transition: transform 1s;
+}
+
+.notifications-section:hover {
+  transform: translate(0%);
+  cursor: pointer;
 }
 
 .notif-icon {
