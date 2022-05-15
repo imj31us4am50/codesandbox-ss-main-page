@@ -24,7 +24,10 @@ export default function moreinfo() {
             </span>
             .
           </li>
-          <li></li>
+          <li className="pink-bullet-list">
+            Vei fi notificat în legătură cu planul de studiu sau alte lucruri
+            importante chiar și din exteriorul platformei.
+          </li>
         </ul>
       </div>
     </div>
