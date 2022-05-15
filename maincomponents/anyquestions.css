@@ -1,0 +1,30 @@
+.title3 {
+  max-width: 700px;
+}
+
+.inputspart {
+  max-width: 700px;
+}
+
+textarea {
+  max-height: 150px;
+  min-height: 100px;
+}
+
+form {
+  border: 2px solid #ff9db0;
+  width: fit-content;
+  border-radius: 10px;
+}
+
+input,
+textarea {
+  border-radius: 10px;
+  border: 1px solid gray;
+}
+
+@media screen and (max-width: 760px) {
+  .inputspart {
+    flex-direction: column;
+  }
+}

@@ -8,13 +8,47 @@ a:hover {
   text-decoration: none;
 }
 
-.list {
-}
-
 .pink-bullet-list::before {
   content: "•";
   color: #ff9db0;
   display: inline-block;
   width: 1em;
   margin-left: -1em;
+}
+
+.quote {
+  width: 17%;
+  box-shadow: 1px 1px 5px #ff9db0;
+}
+
+h5 {
+  width: fit-content;
+  margin: auto;
+}
+
+.additional-information {
+  font-size: 1.125rem;
+  animation: fade-in-out 5s infinite;
+}
+
+@keyframes fade-in-out {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .container-of-benefits-and-quote {
+    flex-direction: column;
+  }
+  .quote {
+    width: 50%;
+  }
 }

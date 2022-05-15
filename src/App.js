@@ -10,7 +10,7 @@ import Main from "/maincomponents/App1.js";
 export default function App() {
   return (
     <div className="App m-0 p-0">
-      <div className="container-of-navbar-and-intro">
+      <div className="container-with-background">
         <NavBar />
         <Intro />
       </div>

@@ -6,6 +6,7 @@ import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import Title from "/maincomponents/Title.js";
 import FlexIntroComponents from "/maincomponents/flexintrocomponents.js";
 import MoreInfo from "/maincomponents/moreinfo.js";
+import AnyQuestions from "/maincomponents/anyquestions.js";
 
 export default function App1() {
   return (
@@ -13,6 +14,7 @@ export default function App1() {
       <Title />
       <FlexIntroComponents />
       <MoreInfo />
+      <AnyQuestions />
     </div>
   );
 }
