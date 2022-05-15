@@ -9,7 +9,7 @@ export default function flexintrocomponents() {
       </div>
       <div className="flex-items-offer d-flex m-0 p-0">
         <div
-          className="offer-item-1 w-100 p-5 m-3 mt-0"
+          className="offer-item-1 p-5 m-3 mt-0"
           onClick={() => {
             //aici trb sa adaugi tu sa se intample numai daca nu e pers conectata
             let notif1 = document.querySelector(".notification");
@@ -33,7 +33,7 @@ export default function flexintrocomponents() {
           </p>
         </div>
         <div
-          className="offer-item-2 w-100 p-5 m-3 mt-0"
+          className="offer-item-2 p-5 m-3 mt-0"
           onClick={() => {
             //aici trb sa adaugi tu sa se intample numai daca nu e pers conectata
             let notif2 = document.querySelector(".notification");
@@ -58,7 +58,7 @@ export default function flexintrocomponents() {
           </p>
         </div>
         <div
-          className="offer-item-3 w-100 p-5 m-3 mt-0"
+          className="offer-item-3 p-5 m-3 mt-0"
           onClick={() => {
             //aici trb sa adaugi tu sa se intample numai daca nu e pers conectata
             let notif3 = document.querySelector(".notification");
