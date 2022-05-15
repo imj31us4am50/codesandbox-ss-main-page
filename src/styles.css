@@ -25,6 +25,18 @@ a:hover {
   background-size: cover;
 }
 
+.notification {
+  position: fixed;
+  bottom: 0;
+  margin: 2em;
+  padding: 0.5em;
+  font-size: 0.85rem;
+  max-width: 300px;
+  border: 1px solid #ff9db0;
+  background: rgba(255, 157, 176, 0.4);
+  border-radius: 10px;
+}
+
 /* width */
 ::-webkit-scrollbar {
   width: 15px;

@@ -3,8 +3,22 @@ import flexintroComponentsCSS from "/maincomponents/flexintrocomponents.css";
 export default function flexintrocomponents() {
   return (
     <div className="container-fluid pb-3" style={flexintroComponentsCSS}>
+      <div className="notification">
+        Trebuie să te înregistrezi/conectezi înainte de a accesa una dintre
+        opțiuni!
+      </div>
       <div className="flex-items-offer d-flex m-0 p-0">
-        <div className="offer-item-1 w-100 p-5 m-3 mt-0">
+        <div
+          className="offer-item-1 w-100 p-5 m-3 mt-0"
+          onClick={() => {
+            //aici trb sa adaugi tu sa se intample numai daca nu e pers conectata
+            let notif1 = document.querySelector(".notification");
+            notif1.style.display = "block";
+            setTimeout(() => {
+              notif1.style.display = "none";
+            }, 2000);
+          }}
+        >
           <div className="container-of-display-icon mx-auto">
             <img
               src="https://imj31us4am50.github.io/SpringStudy-media/calendar-icon.png"
@@ -18,7 +32,17 @@ export default function flexintrocomponents() {
             va menține motivat pe tot parcursul planului.
           </p>
         </div>
-        <div className="offer-item-2 w-100 p-5 m-3 mt-0">
+        <div
+          className="offer-item-2 w-100 p-5 m-3 mt-0"
+          onClick={() => {
+            //aici trb sa adaugi tu sa se intample numai daca nu e pers conectata
+            let notif2 = document.querySelector(".notification");
+            notif2.style.display = "block";
+            setTimeout(() => {
+              notif2.style.display = "none";
+            }, 2000);
+          }}
+        >
           <div className="container-of-display-icon mx-auto">
             <img
               src="https://imj31us4am50.github.io/SpringStudy-media/chat-icon.png"
@@ -33,7 +57,17 @@ export default function flexintrocomponents() {
             subiecte.
           </p>
         </div>
-        <div className="offer-item-3 w-100 p-5 m-3 mt-0">
+        <div
+          className="offer-item-3 w-100 p-5 m-3 mt-0"
+          onClick={() => {
+            //aici trb sa adaugi tu sa se intample numai daca nu e pers conectata
+            let notif3 = document.querySelector(".notification");
+            notif3.style.display = "block";
+            setTimeout(() => {
+              notif3.style.display = "none";
+            }, 2000);
+          }}
+        >
           <div className="container-of-display-icon mx-auto">
             <img
               src="https://imj31us4am50.github.io/SpringStudy-media/options-icon.png"

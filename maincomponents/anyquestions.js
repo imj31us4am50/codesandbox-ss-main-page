@@ -3,14 +3,14 @@ import anyquestionsCSS from "/maincomponents/anyquestions.css";
 export default function anyquestions() {
   return (
     <div className="container-fluid" style={anyquestionsCSS}>
-      <h5 className="title3 text-center p-3">
+      <h3 className="title3 text-center p-3 mx-auto">
         Dacă vrei să afli mai multe informații sau ai o întrebare, poți accesa
         secțiunea de{" "}
         <span className="pink">
           <a href="#help">ajutor</a>
         </span>{" "}
         sau să lași o întrebare aici:
-      </h5>
+      </h3>
       <form method="post" className="m-5 mt-2 mx-auto">
         <div className="inputspart d-flex align-items-start mx-auto">
           <div className="information-part p-4 w-100">
