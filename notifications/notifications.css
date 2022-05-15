@@ -39,6 +39,7 @@
   overflow-y: auto;
   box-shadow: 0px 1px 5px gray;
   transform: translate(0, -0.2%);
+  background: linear-gradient(to bottom, #ff9db0, rgba(255, 157, 176, 0.7));
 }
 
 .whole-notif:hover {
