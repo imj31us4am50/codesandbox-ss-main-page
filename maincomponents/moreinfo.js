@@ -48,8 +48,8 @@ export default function moreinfo() {
             <i>
               „Nimic nu este prea dificil dacă împarți în pași mici ceea ce ai
               de făcut.”
-            </i>{" "}
-            - Henry Ford
+            </i>
+            <br /> - Henry Ford
           </p>
         </div>
       </div>
