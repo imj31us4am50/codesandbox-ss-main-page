@@ -5,6 +5,10 @@
   /* overflow-y: auto; */
 }
 
+* .pink {
+  color: #ff9db0;
+}
+
 .App {
   overflow-x: hidden;
 }
