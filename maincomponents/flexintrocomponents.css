@@ -33,6 +33,7 @@
   border-radius: 10px;
   display: none;
   transition: display 0.5s;
+  z-index: 5;
 }
 
 h5 {

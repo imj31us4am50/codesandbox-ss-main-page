@@ -1,18 +1,47 @@
-.notifications-section {
+.whole-notif {
   position: fixed;
-  bottom: 50%;
+  left: 0;
+  bottom: 60%;
+  z-index: 2;
+  width: fit-content;
+  transform: translate(-83%);
+  transition: transform 1s;
+  height: fit-content;
+}
+
+.notifications-section {
   border-bottom-right-radius: 50px;
   border-top-right-radius: 50px;
   left: 0;
-  z-index: 2;
-  width: fit-content;
+  bottom: 50%;
+  z-index: 1;
   padding: 0.5em;
   background: #ff9db0;
-  transform: translate(-70%);
-  transition: transform 1s;
+  box-shadow: 0px 1px 5px gray;
 }
 
-.notifications-section:hover {
+.notif-text {
+  padding-left: 3em;
+  padding-right: 3em;
+}
+
+.notifications-container {
+  /* display: none; */
+  background: #ff9db0;
+  width: fit-content;
+  position: fixed;
+  z-index: -1;
+  /* width: 0%; to width: 90%; */
+  width: 83%;
+  height: 0; /*to height: 90%;*/
+  transition: width 1s, height 1s;
+  padding: 0.5em;
+  overflow-y: auto;
+  box-shadow: 0px 1px 5px gray;
+  transform: translate(0, -0.2%);
+}
+
+.whole-notif:hover {
   transform: translate(0%);
   cursor: pointer;
 }
@@ -20,4 +49,9 @@
 .notif-icon {
   max-width: 25px;
   margin-left: 1em;
+}
+
+.whole-notif:hover .notifications-container {
+  width: 95%;
+  height: 300px;
 }
