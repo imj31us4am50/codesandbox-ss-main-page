@@ -2,9 +2,9 @@ import introComponentsCSS from "/maincomponents/flexintrocomponents.css";
 
 export default function flexintrocomponents() {
   return (
-    <div className="container-fluid m-0">
-      <div className="flex-items-offer d-flex align-items-start">
-        <div className="offer-item-1 w-100 p-5 m-4 mt-0">
+    <div className="container-fluid pb-3">
+      <div className="flex-items-offer d-flex m-0 p-0">
+        <div className="offer-item-1 w-100 p-5 m-3 mt-0">
           <div className="container-of-display-icon mx-auto">
             <img
               src="https://imj31us4am50.github.io/SpringStudy-media/calendar-icon.png"
@@ -18,7 +18,7 @@ export default function flexintrocomponents() {
             va menține motivat pe tot parcursul planului.
           </p>
         </div>
-        <div className="offer-item-2 w-100 p-5 m-4 mt-0">
+        <div className="offer-item-2 w-100 p-5 m-3 mt-0">
           <div className="container-of-display-icon mx-auto">
             <img
               src="https://imj31us4am50.github.io/SpringStudy-media/chat-icon.png"
@@ -33,7 +33,7 @@ export default function flexintrocomponents() {
             subiecte.
           </p>
         </div>
-        <div className="offer-item-3 w-100 p-5 m-4 mt-0">
+        <div className="offer-item-3 w-100 p-5 m-3 mt-0">
           <div className="container-of-display-icon mx-auto">
             <img
               src="https://imj31us4am50.github.io/SpringStudy-media/options-icon.png"
@@ -44,7 +44,7 @@ export default function flexintrocomponents() {
             OPȚIUNI PENTRU ELEVII DE CLASELE IX-XII
           </h5>
           <p className="text-center">
-            Liceeni (și nu numai) pot descoperi pasiuni noi pentru diferite
+            Liceenii (și nu numai) pot descoperi pasiuni noi pentru diferite
             subiecte, fie prin comunicarea cu alți utilizatori, fie prin
             materialele de pe site.
           </p>

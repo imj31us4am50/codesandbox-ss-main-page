@@ -9,8 +9,16 @@
 .offer-item-1,
 .offer-item-2,
 .offer-item-3 {
-  box-shadow: 1px 2px 3px black;
+  box-shadow: 1px 1px 5px gray;
   flex: 1;
+  transition: transform 0.5s;
+}
+
+.offer-item-1:hover,
+.offer-item-2:hover,
+.offer-item-3:hover {
+  cursor: pointer;
+  transform: scale(105%);
 }
 
 h5 {
