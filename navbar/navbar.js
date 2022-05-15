@@ -2,7 +2,7 @@ import navbarCSS from "/navbar/navbar.css";
 
 export default function navbar() {
   return (
-    <div className="container-fluid m-0 navbar-main">
+    <div className="container-fluid m-0 navbar-main" style={navbarCSS}>
       <div className="container-of-navbar d-flex justify-content-between align-items-center">
         <img
           className="logo"

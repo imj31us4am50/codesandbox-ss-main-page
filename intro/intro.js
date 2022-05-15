@@ -2,7 +2,10 @@ import introCSS from "/intro/intro.css";
 
 export default function intro() {
   return (
-    <div className="container-fluid m-0 p-0 d-flex intro-container mt-5">
+    <div
+      className="container-fluid m-0 p-0 d-flex intro-container mt-5"
+      style={introCSS}
+    >
       <div className="empty w-100 p-4"></div>
       <div className="intro-content w-100 p-4 text-white">
         <h1>

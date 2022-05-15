@@ -1,8 +1,8 @@
-import introComponentsCSS from "/maincomponents/flexintrocomponents.css";
+import flexintroComponentsCSS from "/maincomponents/flexintrocomponents.css";
 
 export default function flexintrocomponents() {
   return (
-    <div className="container-fluid pb-3">
+    <div className="container-fluid pb-3" style={flexintroComponentsCSS}>
       <div className="flex-items-offer d-flex m-0 p-0">
         <div className="offer-item-1 w-100 p-5 m-3 mt-0">
           <div className="container-of-display-icon mx-auto">
