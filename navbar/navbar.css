@@ -59,12 +59,11 @@ ul {
 .sublist-item-2:hover {
   cursor: pointer;
   color: #ff9db0;
-  border-bottom: 1px solid #ff9db0;
 }
 
 .sublist-item-2 {
   padding: 0.3em;
-  font-size: 1rem;
+  font-size: 0.9rem;
   text-align: center;
   margin: auto;
 }
