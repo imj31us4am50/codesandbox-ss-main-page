@@ -10,8 +10,21 @@ export default function navbar() {
         />
         <div className="navbar-list-container">
           <ul className="navbar-list d-flex text-white">
-            <li className="list-item-1">DESCOPERĂ</li>
-            <li className="list-item-1">CREEAZĂ</li>
+            <li className="list-item-d-1 dropdown-1">
+              <span> DESCOPERĂ </span>
+              <div className="dropdown-content-1">
+                <li className="sublist-item-1">POMODOROS</li>
+                <li className="sublist-item-1">CALCULATOR MEDIE</li>
+                <li className="sublist-item-1">RESURSE</li>
+              </div>
+            </li>
+            <li className="list-item-d-1 dropdown-1">
+              <span> CREEAZĂ </span>
+              <div className="dropdown-content-1">
+                <li className="sublist-item-1">PLAN DE STUDIU</li>
+                <li className="sublist-item-1">TIMER/REMINDER</li>
+              </div>
+            </li>
             <li className="list-item-d-1 dropdown-1">
               <span> CHAT </span>
               <div className="dropdown-content-1">
@@ -38,8 +51,21 @@ export default function navbar() {
         </div>
       </div>
       <ul className="dropdown-list text-white w-100 m-0 p-0" id="dropdown-el">
-        <li className="list-item-2">DESCOPERĂ</li>
-        <li className="list-item-2">CREEAZĂ</li>
+        <li className="list-item-d-2 dropdown-2 text-center">
+          <span className="mx-auto"> DESCOPERĂ </span>
+          <div className="dropdown-content-2 mx-auto">
+            <li className="sublist-item-2">POMODOROS</li>
+            <li className="sublist-item-2">CALCULATOR MEDIE</li>
+            <li className="sublist-item-2">RESURSE</li>
+          </div>
+        </li>
+        <li className="list-item-d-2 dropdown-2 text-center">
+          <span className="mx-auto"> CREEAZĂ </span>
+          <div className="dropdown-content-2 mx-auto">
+            <li className="sublist-item-2">PLAN DE STUDIU</li>
+            <li className="sublist-item-2">TIMER/REMINDER</li>
+          </div>
+        </li>
         <li className="list-item-d-2 dropdown-2 text-center">
           <span className="mx-auto"> CHAT </span>
           <div className="dropdown-content-2 mx-auto">
