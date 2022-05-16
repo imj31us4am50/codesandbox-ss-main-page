@@ -2,7 +2,7 @@ import navbarCSS from "/navbar/navbar.css";
 
 export default function navbar() {
   return (
-    <div className="container-fluid m-0 navbar-main" style={navbarCSS}>
+    <div className="container-fluid m-0 navbar-main mx-auto" style={navbarCSS}>
       <div className="container-of-navbar d-flex justify-content-between align-items-center">
         <img
           className="logo"
@@ -19,7 +19,7 @@ export default function navbar() {
                 <li className="sublist-item-1">SUBIECTE</li>
               </div>
             </li>
-            <li className="list-item-1">ÎNR./CON.</li>
+            <li className="list-item-1">CONT</li>
             <li className="list-item-1">AJUTOR</li>
           </ul>
         </div>
@@ -47,7 +47,7 @@ export default function navbar() {
             <li className="sublist-item-2">SUBIECTE</li>
           </div>
         </li>
-        <li className="list-item-2">ÎNR./CON.</li>
+        <li className="list-item-2">CONT</li>
         <li className="list-item-2">AJUTOR</li>
       </ul>
     </div>
