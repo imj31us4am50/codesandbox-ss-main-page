@@ -20,8 +20,13 @@ a:hover {
 }
 
 .container-with-background {
+  /*blue bg*/
   background: url("https://imj31us4am50.github.io/SpringStudy-media/cherryblossom4.png")
     no-repeat fixed;
+
+  /*pink bg*/
+  /* background: url("https://imj31us4am50.github.io/SpringStudy-media/background.jpg")
+    no-repeat fixed; */
   background-size: cover;
 }
 

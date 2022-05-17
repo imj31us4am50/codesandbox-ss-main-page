@@ -11,11 +11,20 @@ export default function navbar() {
         <div className="navbar-list-container">
           <ul className="navbar-list d-flex text-white">
             <li className="list-item-d-1 dropdown-1">
-              <span> DESCOPERĂ </span>
+              <span>
+                {" "}
+                <a href="#discover">DESCOPERĂ</a>{" "}
+              </span>
               <div className="dropdown-content-1">
-                <li className="sublist-item-1">POMODOROS</li>
-                <li className="sublist-item-1">CALCULATOR MEDIE</li>
-                <li className="sublist-item-1">RESURSE</li>
+                <li className="sublist-item-1">
+                  <a href="#pomodoros">POMODOROS</a>
+                </li>
+                <li className="sublist-item-1">
+                  <a href="#avgcalc">CALCULATOR MEDIE</a>
+                </li>
+                <li className="sublist-item-1">
+                  <a href="#resources">RESURSE</a>
+                </li>
               </div>
             </li>
             <li className="list-item-d-1 dropdown-1">
