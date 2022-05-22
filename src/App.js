@@ -7,6 +7,7 @@ import NavBar from "/navbar/navbar.js";
 import Intro from "/intro/intro.js";
 import Main from "/maincomponents/App1.js";
 import Notifications from "/notifications/notifications.js";
+import Footer from "/footer/footer.js";
 
 export default function App() {
   return (
@@ -18,6 +19,7 @@ export default function App() {
       {/* apare asta de notif. numai daca are cont si e conectat */}
       <Notifications />
       <Main />
+      <Footer />
     </div>
   );
 }
