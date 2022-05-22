@@ -2,8 +2,11 @@ import notificationsCSS from "/notifications/notifications.css";
 
 export default function notifications() {
   return (
-    <div className="container-fluid whole-notif m-0 p-0">
-      <div className="notifications-section" style={notificationsCSS}>
+    <div
+      className="container-fluid whole-notif m-0 p-0"
+      style={notificationsCSS}
+    >
+      <div className="notifications-section">
         <p className="d-inline pr-5 text-white notif-text text-center">
           Notificări
         </p>
